@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHAHABAS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+
+    </style>
+</head>
+
+
+<body class="bg-black text-slate-200">
+    <nav class="fixed w-full bg-dark-light/90 backdrop-blur-md z-50 py-4 glow-accent">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <span class="text-2xl font-mono text-accent font-semibold text-glow">SHAHABAS</span>
+
+
+            <button class="md:hidden text-accent hover:text-accent-light transition-colors"
+                onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+
+            <!-- Desktop menu -->
+            <div class=" hidden md:flex space-x-8 font-medium text-sm">
+                <a href="#home" class="hover:text-red-500 transition-colors text-danger">HOME</a>
+                <a href="#about" class="hover:text-red-500 transition-colors">ABOUT</a>
+                <a href="#projects" class="hover:text-red-500 transition-colors">PROJECT</a>
+                <a href="#services" class="hover:text-red-500 transition-colors">SERVICES</a>
+                <a href="#contact" class="hover:text-red-500 transition-colors">CONTACT</a>
+            </div>
+        </div>
+
+        <!-- Mobile menu  -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-4 pt-2 pb-3 space-y-2 bg-dark-light/90 backdrop-blur-md">
+                <a href="#home"
+                    class="block px-3 py-2 text-base font-medium hover:text-red-500 transition-colors">HOME</a>
+                <a href="#about"
+                    class="block px-3 py-2 text-base font-medium hover:text-red-500 transition-colors">ABOUT</a>
+                <a href="#projects"
+                    class="block px-3 py-2 text-base font-medium hover:text-red-500 transition-colors">PROJECT</a>
+                <a href="#services"
+                    class="block px-3 py-2 text-base font-medium hover:text-red-500 transition-colors">SERVICES</a>
+                <a href="#contact"
+                    class="block px-3 py-2 text-base font-medium hover:text-red-500 transition-colors">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mx-auto px-4 pt-32" id="home">
+        <div class="flex flex-col-reverse  md:flex-row items-center justify-between relative gap-8 md:gap-0">
+            <!-- Text content -->
+            <div class="max-w-2xl z-10 text-center md:text-left">
+                <h2 class="p-2 text-2xl md:text-4xl font-semibold ">Hi I'm</h2>
+                <h6 class="p-2 text-2xl md:text-4xl font-semibold text-light-dark mb-2">
+                    Full Stack Developer
+                </h6>
+                <p class="p-2 text-base md:text-lg text-light-dark/80 mb-8 max-w-xl leading-relaxed">
+                    "As a passionate Full Stack Developer, I bring a broad range of skills in front-end
+                    technologies.I specialize in creating seamless, high-performing web
+                    applications that balance user experienc"
+                </p>
+                <div>
+
+                </div>
+                <div class="flex gap-4 justify-center md:justify-start p-2">
+                    <a href="c:\Users\shazz\OneDrive\Pictures\CV.zip" download="CV.zip">
+                        <button
+                            class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300  shadow-blue-700/50">
+                            Download CV
+                        </button>
+                    </a>
+
+                    </a>
+                </div>
+            </div>
+
+            <!-- Dp Image -->
+            <div class="relative z-200">
+                <div class="w-60 h-60 md:w-80 md:h-80 rounded-full">
+                    <img class="shadow-lg rounded-full transform transistion-all hover:-translate-y-2 duration-300 shadow-lg shadow-cyan-700/50  p-6 text-center"
+                        src="c:\Users\shazz\Downloads\Phone Link\IMG_20241227_201751_564 (2).webp" alt="Profile Picture"
+                        class="w-full h-full object-cover" onerror="this.src='./images.png'">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center dark:bg-light-800 mt-16" id="about">
+            <div class="max-w-xl mx-auto w-full">
+                <h4
+                    class="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl mb-6 text-center">
+                    ABOUT</h4>
+                <p class="text-base md:text-lg p-4">"Hello,I am Shahabas from Kozhikode and I'm currently learning
+                    new ways of
+                    programming at Luminar technolab in kochi.
+                    I like Programming and i build interactive Websites both static and responsive websites and
+                    is eager to expand my
+                    knowledge and skills in web development. I am a quick learner and a great team player who always
+                    makes sure to meet project deadlines with enthusiasm and dedication, I am sure to make a significant
+                    contribution to any web development team"</p>
+
+            </div>
+        </div>
+        <div id="projects">
+            <h4
+                class="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl text-center mb-3 mt-16">
+                PROJECTS</h4>
+            <h5 class="text-center md:text-2xl">This my projects</h5>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 flex-wrap flex justify-center items-center mb-5 mt-5">
+                <!-- Card -->
+                <div
+                    class="w-100 shadow-lg rounded-lg transform transistion-all hover:-translate-y-2 duration-300 shadow-lg shadow-cyan-700/50  p-6">
+                    <div class="p-2 ">
+                        <a href="https://skincare-fawn.vercel.app/"> <img
+                                src="C:\Users\shazz\OneDrive\Pictures\Screenshots\Screenshot 2025-01-02 214246.png"
+                                alt="">
+                            <h3 class="font-bold mb-2 mt-2" style="color: #274f80; text-align: center;">Men's Beauty
+                                Product</h3>
+
+                        </a>
+
+
+                    </div>
+                </div>
+                <!-- Card -->
+                <div
+                    class="w-100  shadow-lg rounded-lg p-6 text-center transistion-all hover:-translate-y-2 duration-300 shadow-lg  shadow-blue-700/50">
+                    <!-- Image -->
+                    <div class="p-2">
+                        <a href="https://elite-event-management.vercel.app/">
+                            <img src="C:\Users\shazz\OneDrive\Pictures\Screenshots\Screenshot 2025-01-02 213934.png"
+                                alt="">
+                            <h3 class="font-bold mb-2 mt-2" style="color: #274f80; text-align: center;">Elite Event
+                                platform</h3>
+
+                        </a>
+
+                    </div>
+                </div>
+                <!-- Card -->
+                <div
+                    class="w-100 shadow-lg rounded-lg p-6 text-center transistion-all hover:-translate-y-2 duration-300 shadow-lg shadow-indigo-700/50">
+                    <!-- Image -->
+                    <div class="p-2">
+                        <a href="https://educare2-one.vercel.app/"><img
+                                src="C:\Users\shazz\OneDrive\Pictures\Screenshots\Screenshot 2025-01-03 195421.png"
+                                alt="">
+                            <h3 class="font-bold mb-2 mt-2" style="color: #274f80; text-align: center;">Edu Care</h3>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+              
+
+        </div>
+
+    </div>
+
+    <div class="bg-black" id="services">
+
+        <section id="features"
+            class="relative block px-6 py-10 md:py-20 md:px-10  border-t border-b border-neutral-900 bg-neutral-900/30">
+
+
+            <div class="relative mx-auto max-w-5xl text-center">
+
+                <h2
+                    class="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
+                    SERVICES
+                </h2>
+                <p
+                    class="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
+                    "If you want to a website contact me i can create best technique and desingns web sites"
+                </p>
+            </div>
+
+
+            <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
+                <div
+                    class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow transistion-all hover:-translate-y-2 duration-300">
+                    <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
+                        style="background-image: linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%); border-color: rgb(93, 79, 240);">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-color-swatch"
+                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M19 3h-4a2 2 0 0 0 -2 2v12a4 4 0 0 0 8 0v-12a2 2 0 0 0 -2 -2"></path>
+                            <path d="M13 7.35l-2 -2a2 2 0 0 0 -2.828 0l-2.828 2.828a2 2 0 0 0 0 2.828l9 9"></path>
+                            <path d="M7.3 13h-2.3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h12"></path>
+                            <line x1="17" y1="17" x2="17" y2="17.01"></line>
+                        </svg>
+                    </div>
+                    <h3 class="mt-6 text-gray-400">Front-end development</h3>
+                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">I have expertise in
+                        developing responsive and user-friendly front-end interfaces using html, css, Bootstrap, and
+                        javascript. I can create engaging and intuitive user experiences that are optimized for
+                        different devices and screen sizes.
+                    </p>
+                </div>
+
+
+                <div
+                    class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow transistion-all hover:-translate-y-2 duration-300">
+                    <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
+                        style="background-image: linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%); border-color: rgb(93, 79, 240);">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt" width="24"
+                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="mt-6 text-gray-400">Web-design</h3>
+                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">I have expertise in
+                        creating websites that look great and perform well with custom designs, responsive layouts,
+                        seamless functionality, and optimized performance. These services keep visitors engaged and
+                        encourage them to take action, leading to success and standing out from the competition with the
+                        latest design trends and technologies.
+                </div>
+
+
+                <div
+                    class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow transistion-all hover:-translate-y-2 duration-300">
+                    <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
+                        style="background-image: linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%); border-color: rgb(93, 79, 240);">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="24"
+                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4"></path>
+                            <line x1="14.5" y1="5.5" x2="18.5" y2="9.5"></line>
+                            <polyline points="12 8 7 3 3 7 8 12"></polyline>
+                            <line x1="7" y1="8" x2="5.5" y2="9.5"></line>
+                            <polyline points="16 12 21 17 17 21 12 16"></polyline>
+                            <line x1="16" y1="17" x2="14.5" y2="18.5"></line>
+                        </svg>
+                    </div>
+                    <h3 class="mt-6 text-gray-400">Web-development</h3>
+                    <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
+                        Professional web development services offer custom designs, responsive layouts, seamless
+                        functionality, and optimized performance. These services ensure that your website is
+                        user-friendly, fast, and easy to navigate, helping you achieve your business goals. </p>
+                </div>
+
+
+            </div>
+
+
+        </section>
+    </div>
+
+    <div class="h-screen flex justify-center items-center dark:bg-dark-800 p-8" id="skills">
+        <div class="max-w-xl mx-auto w-full">
+
+            <h4 class="text-2xl md:text-4xl dark:text-white font-bold mb-6 text-center">SKILLS</h4>
+            <p class="text-center mb-5">My skills are achieved through only learning technique.</p>
+
+            <div class="mb-7">
+                <div class="flex justify-between py-1">
+                    <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">HTML</span>
+                    <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">90%</span>
+                </div>
+                <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                    <path class="rc-progress-line-trail" d="M 0.5,0.5
+                 L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                    <path class="rc-progress-line-path" d="M 0.5,0.5
+                 L 99.5,0.5" stroke-linecap="round" stroke="#FF6464" stroke-width="1" fill-opacity="0"
+                        style="stroke-dasharray: 79.2px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                    </path>
+                </svg>
+            </div>
+
+
+            <div class="mb-7">
+                <div class="flex justify-between py-1">
+                    <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">CSS</span>
+                    <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">95%</span>
+                </div>
+                <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                    <path class="rc-progress-line-trail" d="M 0.5,0.5
+                 L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                    <path class="rc-progress-line-path" d="M 0.5,0.5
+                 L 99.5,0.5" stroke-linecap="round" stroke="#9272D4" stroke-width="1" fill-opacity="0"
+                        style="stroke-dasharray: 94.05px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                    </path>
+                </svg>
+            </div>
+
+
+            <div class="mb-7">
+                <div class="flex justify-between py-1">
+                    <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">TAILWIND</span>
+                    <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">65%</span>
+                </div>
+                <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                    <path class="rc-progress-line-trail" d="M 0.5,0.5
+                 L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                    <path class="rc-progress-line-path" d="M 0.5,0.5
+                 L 99.5,0.5" stroke-linecap="round" stroke="#5185D4" stroke-width="1" fill-opacity="0"
+                        style="stroke-dasharray: 64.35px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                    </path>
+                </svg>
+            </div>
+
+
+            <div class="mb-7">
+                <div class="flex justify-between py-1">
+                    <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">JAVASCRIPT</span>
+                    <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">70%</span>
+                </div>
+                <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                    <path class="rc-progress-line-trail" d="M 0.5,0.5
+                 L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                    <path class="rc-progress-line-path" d="M 0.5,0.5
+                 L 99.5,0.5" stroke-linecap="round" stroke="#CA56F2" stroke-width="1" fill-opacity="0"
+                        style="stroke-dasharray: 74.25px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                    </path>
+                </svg>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="min-h-screen bg-gray- py-6 flex flex-col justify-center sm:py-12" id="contact">
+        <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+            <div
+                class="absolute inset-0 bg-gradient-to-r from-indigo-700 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+            </div>
+            <div class="text-white relative px-4 py-10 bg-indigo-400 shadow-lg sm:rounded-3xl sm:p-20">
+
+                <div class="text-center pb-6">
+                    <h1 class="text-3xl">Contact me!</h1>
+
+                    <p class="text-gray-300">
+                        Fill up the form below to send us a message.
+                    </p>
+                </div>
+
+                <form>
+
+                    <input
+                        class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        type="text" placeholder="Your Name" name="name">
+
+                    <input
+                        class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        type="email" placeholder="Your Email" name="email">
+
+                    <input
+                        class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        type="text" placeholder="Subject" name="_subject">
+
+                    <textarea
+                        class="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        type="text" placeholder="Type your message here..." name="message"
+                        style="height: 121px;"></textarea>
+
+                    <div class="flex justify-between">
+                        <input
+                            class="shadow bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            type="submit" value="Send ">
+                        <input
+                            class="shadow bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            type="reset">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
